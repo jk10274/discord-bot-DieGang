@@ -1,0 +1,140 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="2xO3Mlj)z7{S[g]l_k4Z">bm</variable>
+  </variables>
+  <block type="s4d_on_message" id="ID|DL(h#ay{FzQb-Yt*|" x="99" y="8">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="fZOhzFV~qo-Q5QZLB$c{">
+        <value name="IF0">
+          <block type="logic_compare" id="r_#3a0ljI$#QbtOtx,f_">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="92I0LhS{[wWX+TB05[@o"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="NVQw%3K!AzZ:fn=#h`Sg">
+                <field name="TEXT">!stfu</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="variables_set" id="?)3_wB.|eAK:,l/v;ZvX">
+            <field name="VAR" id="2xO3Mlj)z7{S[g]l_k4Z">bm</field>
+            <value name="VALUE">
+              <block type="math_number" id="_Xw!kn;fzCw+~F^R7f#r">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+            <next>
+              <block type="s4d_reply" id="62oMR*%Pk7Vf-YV|WSVx">
+                <value name="CONTENT">
+                  <block type="text" id="}OY-n=5Z__3.6_|2qoGA">
+                    <field name="TEXT">Beschützermodus deactivated :/</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_login" id=")O7+PL3eS1Br}h;?X9N$" x="288" y="163">
+    <value name="TOKEN">
+      <block type="text" id="a7JxIIyK[Yr~TPL^-{W:">
+        <field name="TEXT">ODM2ODkwMjc0NzU0OTg1OTk1.YIkkzg.RKzzRgh-U5_FVtuxp1M1Wca7llo</field>
+      </block>
+    </value>
+  </block>
+  <block type="s4d_on_message" id="Qx+aIDM=_,mj^tl$vGmW" x="56" y="196">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="eHrJoWGcnOgZ}9UN#ZUS">
+        <value name="IF0">
+          <block type="logic_operation" id=":4U3KHrVd;*zy4+,Rn-{">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_negate" id="4J?{?bJ?xKjNYvNZ{JN?">
+                <value name="BOOL">
+                  <block type="logic_compare" id="Z/V@nX2^$wa^7vm;4P7Q">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="s4d_message_content" id="{:}Irs+wRy3@YUQ4~;G{"></block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="qV7I@U8GFnV5cAN(4+dq">
+                        <field name="TEXT">!attacke</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="RP{Pmq5)d8U]Aa^0,!1~">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="eM!4]vL9nWAW37aKqdL[">
+                    <field name="VAR" id="2xO3Mlj)z7{S[g]l_k4Z">bm</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="l/e`m/6lIpeIs#6|V{?F">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="wgo^7yFoMz,K{AaMl6L)">
+            <value name="CONTENT">
+              <block type="text" id="N-4C!JnJCe,s$75i%8Ce">
+                <field name="TEXT">selber</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="C1?C@sqOq/8~SG}Oywvf" x="173" y="435">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="sQ**A!zqhrz93vCigvjo">
+        <value name="IF0">
+          <block type="logic_compare" id=";f+;V3G^uI7a!)}UJa/A">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="LU*kuD3J%[NlgOj$2II!"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="=mF@1~$l%bNREkq!#X#F">
+                <field name="TEXT">!attacke</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="variables_set" id="4ZbC`Gq$`0?^{vbEtNHG">
+            <field name="VAR" id="2xO3Mlj)z7{S[g]l_k4Z">bm</field>
+            <value name="VALUE">
+              <block type="math_number" id="+WE3[$hw[*@!AzymZh[9">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+            <next>
+              <block type="s4d_reply" id="T6x3.]cX^d,HaPnBhLS[">
+                <value name="CONTENT">
+                  <block type="text" id="4l(^+;ZRoFK5FQ:]9*;q">
+                    <field name="TEXT">Beschützermodus activated</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
